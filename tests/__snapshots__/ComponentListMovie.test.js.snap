@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListMovie should render data movie when it's fetched successfully 1`] = `
+<div>
+  <div
+    class="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3 mb-10"
+  >
+    <div
+      class="m-auto w-2/5"
+    >
+      <div>
+        <input
+          class="border-0 px-3 py-3 placeholder-black mr-4 text-slate-600 relative bg-orange-300 rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-10"
+          placeholder="Search..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="grid grid-cols-3 gap-x-4 gap-y-8"
+  >
+    <div
+      class="block"
+    >
+      <div
+        class="container flex justify-center"
+      >
+        <div
+          class="max-w-sm py-10"
+        >
+          <div
+            class="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg h-[980px]"
+          >
+            <span
+              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+            >
+              <span
+                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjgwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                />
+              </span>
+              <img
+                alt="movie 1"
+                data-nimg="intrinsic"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+              <noscript />
+            </span>
+            <div
+              class="py-6 px-8 rounded-lg bg-white"
+            >
+              <h1
+                class="text-gray-700 font-bold text-2xl mb-3"
+              >
+                Title Movie: 
+                movie 1
+              </h1>
+              <p
+                class="text-gray-700 tracking-wide"
+              >
+                Release Date:
+                2022-01-01
+              </p>
+              <p
+                class="text-gray-700 tracking-wide"
+              >
+                Overview: 
+                This is a movie about ...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="block"
+    >
+      <div
+        class="container flex justify-center"
+      >
+        <div
+          class="max-w-sm py-10"
+        >
+          <div
+            class="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg h-[980px]"
+          >
+            <span
+              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+            >
+              <span
+                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjgwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                />
+              </span>
+              <img
+                alt="movie 2"
+                data-nimg="intrinsic"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+              <noscript />
+            </span>
+            <div
+              class="py-6 px-8 rounded-lg bg-white"
+            >
+              <h1
+                class="text-gray-700 font-bold text-2xl mb-3"
+              >
+                Title Movie: 
+                movie 2
+              </h1>
+              <p
+                class="text-gray-700 tracking-wide"
+              >
+                Release Date:
+                2022-02-01
+              </p>
+              <p
+                class="text-gray-700 tracking-wide"
+              >
+                Overview: 
+                This is a movie about ...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListMovie should render loading message when the data movie is being fetched 1`] = `
+<div>
+  <div
+    class="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3 mb-10"
+  >
+    <div
+      class="m-auto w-2/5"
+    >
+      <div>
+        <input
+          class="border-0 px-3 py-3 placeholder-black mr-4 text-slate-600 relative bg-orange-300 rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-10"
+          placeholder="Search..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="grid grid-cols-3 gap-x-4 gap-y-8"
+  >
+    <p>
+      Loading....
+    </p>
+  </div>
+</div>
+`;
