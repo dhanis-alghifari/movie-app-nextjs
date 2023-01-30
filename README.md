@@ -41,7 +41,7 @@ git clone repo
 ```
 2. Install NPM package
 ```sh
-cd frontend-coffebrings
+cd movie-app
 npm install
 
 ```
