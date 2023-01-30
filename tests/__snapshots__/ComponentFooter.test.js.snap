@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if the Footer component is working as expected <Copyright /> matches snapshot 1`] = `
+<div>
+  <footer
+    class="relative bg-slate-200 pt-8 pb-6 mt-10"
+  >
+    <div
+      class="container mx-auto px-4"
+    >
+      <div
+        class="flex flex-wrap items-center md:justify-between justify-center"
+      >
+        <div
+          class="w-full md:w-4/12 px-4 mx-auto text-center"
+        >
+          <div
+            class="text-sm text-slate-500 font-semibold py-1"
+          >
+            Copyright © 
+            2023
+             Movie App by
+            <a
+              class="text-slate-500 hover:text-slate-800"
+            >
+              Dhanis Al Ghifari
+            </a>
+            .
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
