@@ -19,13 +19,12 @@ exports[`Test if the Footer component is working as expected <Copyright /> match
           >
             Copyright © 
             2023
-             Movie App by
-            <a
+             Movie App by 
+            <span
               class="text-slate-500 hover:text-slate-800"
             >
-              Dhanis Al Ghifari
-            </a>
-            .
+              Dhanis Al Ghifari.
+            </span>
           </div>
         </div>
       </div>

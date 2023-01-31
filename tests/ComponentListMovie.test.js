@@ -32,7 +32,7 @@ describe("ListMovie", () => {
       expect(getByText("Title Movie: movie 1")).toBeDefined();
       expect(getByText("Title Movie: movie 2")).toBeDefined();
     });
-    
+
     expect(container).toMatchSnapshot();
   });
 
@@ -41,7 +41,24 @@ describe("ListMovie", () => {
 
     const { container, getByText } = render(<ListMovie />);
 
-    expect(getByText("Loading....")).toBeDefined();
+    await waitFor(() => {
+      expect(getByText("Loading....")).toBeDefined();
+    });
+
+    expect(container).toMatchSnapshot();
+  });
+
+  it("should render movie not found when the data movie is being fetched", async () => {
+    const data = [];
+    getMovie.mockResolvedValue({ data: { results: data } });
+
+    const { container, queryByText } = render(<ListMovie />);
+
+    await waitFor(() => {
+      const element = queryByText("Movie Not Found");
+      expect(element).toBeDefined();
+    });
+
     expect(container).toMatchSnapshot();
   });
 });

@@ -164,9 +164,40 @@ exports[`ListMovie should render loading message when the data movie is being fe
   <div
     class="grid grid-cols-3 gap-x-4 gap-y-8"
   >
-    <p>
-      Loading....
-    </p>
+    <div>
+      <p>
+        Loading....
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListMovie should render movie not found when the data movie is being fetched 1`] = `
+<div>
+  <div
+    class="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3 mb-10"
+  >
+    <div
+      class="m-auto w-2/5"
+    >
+      <div>
+        <input
+          class="border-0 px-3 py-3 placeholder-black mr-4 text-slate-600 relative bg-orange-300 rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-10"
+          placeholder="Search..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="grid grid-cols-3 gap-x-4 gap-y-8"
+  >
+    <div>
+      <p>
+        Loading....
+      </p>
+    </div>
   </div>
 </div>
 `;
